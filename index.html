@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akshit Patel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -225,30 +225,28 @@
         border-right:1px solid #4cbda2;
         
       }
-      /* @media (breakpoint:375px) {
-        .nav{
-          display: none;
-        }
-        .main{
-          
-          display: block;
-          height: 100%;
-        }
-        .left{
-          width: 100%;
+      @media (max-width:600px) {
 
-        }
-        .right{
-          width: 100%;
-        }
-
-        .cvbtn{
-          display: none;
-        }
-        .mainimg{
-          display: none;
-        }
-      } */
+      .mainimg ,.cvbtn,.nav{
+        display: none;
+      }
+      .main{
+        flex-wrap: wrap;
+      }
+      .left{
+        width: 100vw;
+      }
+      .right{
+        width: 100vw;
+      }
+      .social{
+        margin-top:8%;
+      }
+      .flex{
+        flex-wrap: wrap;
+      }
+      }
+      
     </style>
   </head>
   <body>
@@ -260,7 +258,7 @@
           <h1 class="fontbold nomargin heading"><a style="text-decoration: none ;" class="fontbold" href="">Akshit Patel</a></h1>
           <h3 class="fontmid nobottom notop ">Web Developer in the Making</h3>
           <p class="fontlight nobottom ">
-            I create captivating websites for <br>
+            I create captivating websites for
             seamless online experiences.
           </p>
         </div>
